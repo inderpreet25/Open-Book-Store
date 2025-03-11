@@ -1,0 +1,119 @@
+*{
+    margin: 10;
+    padding: 20;
+    box-sizing:border-box; 
+}
+body{
+    font-family:Arial,sans-serif;
+    line-height:1.6;
+    background: color #f4f4f4;
+    color:#333;
+}
+.header{
+    background:#333;
+    color:#fff;
+    padding:10px0;
+    text-align:center;
+}
+.header h1{
+    margin: 10px;
+    color:aquamarine
+}
+nav ul{
+    list-style:none ;
+    display:flex;
+    justify-content: center;
+    padding:10px 0;
+}
+nav ul li{
+    margin:0 15px;
+}
+nav ul li a{
+    color:antiquewhite;
+    text-decoration:none;
+}
+nav ul li a:hover{
+    text-decoration:underline;
+}
+.main_container{
+    display:flex;
+    justify-content: space-between;
+    margin:20px;
+}
+.left_frame,.right_frame,.centered_frame{
+    width:30%;
+    padding:15px;
+    background:#fff;
+    border-radius: 5px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+.left_frame ul{
+    list-style:none ;
+}
+.left_frame li{
+    margin:10px 0;
+}
+.right_frame{
+    background: #f6f6f6;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background:#333;
+    color:#fff;
+    position:absolute;
+    width:100%;
+    bottom:0;
+
+}
+
+
+.catalog_table table{
+    width:100%;
+    border-collapse:collapse;
+
+}
+.catalog_table th,.catalog_table td{
+    padding:10px;
+    border :1px solid #ddd ;
+    text-align: left;
+}
+.catalog_table th{
+    background: #acc1ce;
+}
+.catalog_table tr:nth-child(even){
+    background: #e5cece;
+} 
+
+
+
+.form-container{
+    
+    text-align: center; 
+    margin: 74px ;}
+
+.form-container form{
+  
+    padding: 20px;
+    line-height:3.6;
+}
+   .form-container button{
+    background-color: #32255e;
+    color: white;
+}
+
+
+.form-container1{
+    
+    text-align: center; 
+    margin: 4px ;}
+
+.form-container1 form{
+  
+    padding: 20px;
+    line-height:3.6;
+}
+   .form-container1 button{
+    background-color: #32255e;
+    color: white;
+}

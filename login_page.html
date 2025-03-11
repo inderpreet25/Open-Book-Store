@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>welcome to the online store</h1>
+        <h2>Login Page</h2>
+        <nav>
+            <ul>
+                <li>
+                   <a href="home_page.html">Home Page</a>
+                </li>
+                <li>
+                    <a href="login_page.html">login Page</a>
+                </li>
+                <li>
+                    <a href="catalog_page.html">catalog Page</a>  
+                </li>
+                <li>
+                    <a href="registration_page.html">registration Page</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- <form action="./helo.html" method="post"  class="form-container">
+    <div    class="imgcontainer">
+ 
+        <img  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOMAAACUCAMAAABWd24HAAAAaVBMVEX///8aGhoAAACrq6sYGBgEBAQUFBQcHBwPDw/8/PwICAj5+fnu7u7z8/OdnZ3p6emVlZXGxsbOzs7i4uKOjo5iYmLb29u9vb0wMDBTU1NKSkqkpKQ9PT2EhIRbW1t7e3tvb28lJSW0tLT+LoMEAAAISUlEQVR4nO1d63azKhC1EwW8J8Z71Ji8/0MeSNp+beKFMYD2rOyfXV3EDcyVGbCsN954443/HfwgPuZJsYv2AtGuSPI4Dvy1P0sV/GNSnNqs9OA3WJm1pyKJ3bU/8FUEh6jtyhsl8kG/8CFAmPizIHoI1v7M5QiLc8X5eTd2gtad3DfEX5kDXlm1B76a7t9b0aSnnsNXbx58Rb3LOV/7g5Hwj7sGgNzWSoIk/x8C0OyOf0cJ+Ul6ASbF7idPD8o0+QssuUwd2lIwxFG80WRQtsnaDCRw7EuQEcJBkpQ5ZR+vTWEGQcvFcMES/gMXzH24No1RuFZ4LcF+gd99LW1ois2yTHouhy9SvNFksEVLwu23f2rg0covJcmX8ro5j8C1gt5TsoifLBk7b26/JvRlSfwNG8pt7Vd/B0zRPv0G9aDYkEcQpGArZihIEog2s1+DXsr1xoMQLpSb0D1+o1gUf5CEyt0CycCBlxybKVAKlw1s17wBXQxFMEKhWt1/PdYaKd5oQndcl2JQaabIlxKyVRWPq53iTSazNSl2+tTNT5ZwXo/iXv8q3gHRWhyvFGv6b8lVis+DkEuxBkHXyksPQ49HTOxfkhzpNXhNvobe4SoV85W255F6X+RBGORFWhPHQ9GELFiBZCstjHwJPxzSnX4a8zjqmIfYshT2xhlaB/lVpMLvvD76ZOGuRkUrYDycDBomz5E56ZCvkrcgPQilTmXac5XfqVwr0pHkjH9CBGXGd2uBMBvsMp77xoxDyoNBhjwqlpZGStjUpxXSSXXu0xlNY13lo2IbTpNDRfJDEWLQEwgbeesP7VTiybX8Xt4GQWUuibWTtxusmVP5yUU+LwuFMUcAkb+R8Kb3sjNGKQMD7G6I5O0GaeaD+Lwh8rt1Z4CfJaQRsblkIr/ekR6P1WYkcodwpkHGpF0Rzj01olp9edvIgw2ZaQ8RMRqcTSid4iLtmlCvkhqylPd9SWmgYMCVVoPyiZgM4fyaSHsca/mdJetGYxx8p9OfU0bEjdKqHpP7skH7ZnVbTIZDkiPC4PJ5S3VrnZAgcnF0xh//QorhyErdJjLBpFQptFKDnnGD6k56YNSDOI+RGhShxkzkAxCm7ENkOaQGxex/bnRrvRRjVE5VMpmGUdUfQrPqFUiMa3njmEoMesYOqjevg/0cJpEwjGtk8ZLUxC1Hh9EOHDa9zo65I8jSHi/TSTGusSdVTj9X9B932BM+VuvMzyWldMj+hVk3IEJuf5Fc0GkhrxRbMUanMsgCBwc9bXpPIxFx1TdJqOOJZNqxwZxe3WEzORdxGdIFHKmoyxhDgBZGAZ2K1cWajs9P6o5DK8n/dKycRQPKucGLECJSOb++qTwM7Va3uCyqXKZw1ufpxNmiaRelqAMHkHmKbnT54tjrMx7HCukCfINAHf3Wr0mEO0b+CS/Tl+/Ia1TU8Q+UUs9psii/z3+Y7LNG/gz5mWOlr4QuRxyQP4N4jk3Luq5LShwP68D9BKv1OQHJSxxvPAnzGCpcNM4RFyE/497piXaWnjhqdOZeX0c12PQ6KsL25NGexsY4Im0HJaJf3iHTuJcIoiRUp+3A+AD0g396fU6j024apyjtawbeU9v5BEeNPoC8L8ejDahOh1zO5wryA/d65GuaHY2+nKRPzj8VoEtCzLmEGxwqkJ1BnRxlYyvmZUuUQtJ5ct6BzthKLkYWDZoLx981UpOoNfkok+sg0C/X7EkmU/ujNdexmzVn1HbSxcLi3hrT52dRa85qNvfILcarp0otzPUNEK0drrM5ZFtBSUI6lwDRm0O2qqmjCapI481VQuo9C5g+05lOM8pjLiGp+Uxn+myONWpqLg7T8Y3ms7nj1Azbjqr6oEkbZYPmkuupGfY6VWnPsJr6Gc1n5ZMlGKDObE3IhP6ah/HaFcoahb8zXniov3YlHHWbReGYugqo8fIypr3T3B3brJQoLbcYLSAxUEs2WmhC1VbPumP1nvprAl3rOFaFAUsDqmHsRjiaqO30R2JIwtSqgmQkyDLSmjzSBubVanNl+bAlNtNYFvaDyTmYLVLBIe4GOyLM1MyLmqGhH5/sq8IjHFbgEjVNKhAM9tXAXu0Eh4NVpKZ6WIZLo1XrgkHdZqwXybKG+jKNcCTGesqs08BCmuBIDfYGDvV4GuB46/E0dhHCQK+udo6Uuxkmb+0IsqdJNsDRbM/1gLMDe7Va3X+0HdRw77zI9D4kQT2ld2tx3//pzNr4jR3x8yeo3ayPvTvU05s5HsLh8UiUsEjdbg2jBxvMpXGFm5If/UlKnCydOReXxCntHt0MHv6vcH9O/HSznO05igCP9pdCt8qF+yMRnhY4WsvkJ3Cl6HL3hRAnjuvcMedj+hZfwnp3r1n+oop3NCj0a14UWJu4KBC6Va9g5crVAMWV3zDJtZMEjcVxsiTlSmqWgoLinOYCuFYMOi/ShY817gd8QqDrzmdKCZjKw81B193d1CbnTayiQNDylVS9YcUNivvNUBR3Ny5sK5riyOC6kY0qIB7RcRSrVxtmmkNXQKz6bQvFZ0RK4J9KZUtpQ7PbjCD+gqK3ZsQ1cv3m9ukXgt1FxVJC+XQh7ZYQn2Hx61Z3EIA2sLZjMoaQZxcgcs/MPUE4NmW/un8qgcOZs1zUg/tX3mKzxJt6rb3gfR0PLn/jTb07/JwbEpRg/rW3Ee9IMtuDGWf9LrbijUu6XWsxifDa15fPt0rHKBIH4FKdt/vA3CRu2j8uonN1uXcIfvx7dFZ0N9zfnL10bVRs0GvDQbwd/En0N8rqHBXJn5PBMbhhEB+Tw/W0T9M2Tfen6yE5xgGqs+6NN95442/gP5fPgYO+xsmOAAAAAElFTkSuQmCC" alt="Avatar" class="avatar">
+    </div>
+    <div>
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            
+            <label for="psw"><b>Password</b></label>
+        
+            <input type="password" placeholder="Enter Password" name="psw" required>
+        
+            <button type="submit">Login</button>
+            <br>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+    </div>
+    <br>
+ <div class="container1" >
+        <button type="button" class="cancelbtn" >Cancel</button>
+        
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    
+</form> -->
+
+
+
+<!-- GET PUSH PUT DELETE  THSESE ARE FOUR METHODS-->
+ <!-- label m jo for hai we will pass value of id -->
+<div class="form-container">
+    <form action="#" method="POST">  
+
+        <label for="username">Username</label>
+        <input type="text"  id="username" name="username" required><br>
+        <label for="password">Password</label>
+        <input type="password"  id="password" name="password" required><br>
+        <button type="submit">Login</button>
+    </form>
+
+</div>
+
+
+<footer>
+    <p>&copy; 2025 onlineBookStore All rights are reserved</p>
+   
+</footer>
+</body>
+</html>
